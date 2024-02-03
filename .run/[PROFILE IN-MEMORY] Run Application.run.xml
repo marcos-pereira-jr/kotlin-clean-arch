@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="[PROFILE IN-MEMORY] Run Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <option name="ACTIVE_PROFILES" value="in-memory" />
+    <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+    <module name="rinha-java-spring.main" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.github.marcospereirajr.rinhajavaspring.RinhaJavaSpringApplication" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

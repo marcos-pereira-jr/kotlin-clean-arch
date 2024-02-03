@@ -1,0 +1,21 @@
+server:
+  port: ${PORT:8080}
+spring:
+  application:
+    name: Bank
+api:
+  user:
+    path: '/clientes/{id}'
+    name: "Transactions"
+    description: "Endpoints relacionados a transacoes"
+    resources:
+      transaction:
+        resources:
+          create:
+            path: '/transacoes'
+            summary: "Realiza uma nova transacao"
+            description: "Este endpoint realiza uma nova transacao"
+          list-all:
+            path: '/transacoes'
+            summary: "Lista Todos"
+            description: "Listagem de todas as transacoes do sistema"
